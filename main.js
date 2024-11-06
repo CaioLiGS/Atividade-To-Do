@@ -13,6 +13,11 @@ function adicionarTarefa(){
     criarBotaoFechar(li, ul)
 }
 
+function criarCheck(li, ul){
+    let rotulo = document.createElement('SPAN')
+    let fechar = document.createTextNode('√')
+}
+
 function criarBotaoFechar(li, ul){
     let rotulo = document.createElement('SPAN')
     let fechar = document.createTextNode('X')
